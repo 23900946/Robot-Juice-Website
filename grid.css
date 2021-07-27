@@ -1,0 +1,539 @@
+
+/*-----------Index page---------------*/
+
+.Main_container { /*This div inserts margins at both side of the page's content except for the two footers*/
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.logo { /*This div postions the logo and sets the coloum and row sizes of its grid*/
+  display: grid;
+  grid-template-columns: 362px;
+  grid-template-rows: 120px;
+  line-height: 115px;
+}
+
+
+.slogan { /*This div creates a 1 row by 2 column nested CSS grid that fits into the logo's grid*/
+  display: grid;
+  grid-template-columns: 100px 185px;
+  grid-template-rows: 1fr;
+  margin-bottom: 25px;
+  line-height: 0px;
+}
+
+#slogan { /*Postions the slogan text benath the logo*/
+  grid-column-start: 2;
+}
+
+.Nav_bar {  /*This div Creates a 3 row by 6 column CSS grid for the nav bar*/
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#button1selected { /*Postions button 1 if it is the current page*/
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  line-height: 90px;
+}
+
+#button2selected { /*Postions button 2 if it is the current page*/
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  line-height: 90px;
+}
+
+#button1 { /*Postions the first button in the nav bar*/
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  line-height: 90px;
+}
+
+#button2 { /*Postions the second button in the nav bar*/
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  line-height: 90px;
+}
+
+#button3 { /*Postions the third button in the nav bar*/
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: center;
+  line-height: 90px;
+}
+
+#button4 { /*Postions the fourth button in the nav bar*/
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  text-align: center;
+  line-height: 90px;
+}
+
+#button5 { /*Postions the fifth button in the nav bar*/
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  text-align: center;
+  line-height: 90px;
+}
+
+#button6 { /*Postions the sixth button in the nav bar*/
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  text-align: center;
+  line-height: 90px;
+}
+
+.Welcome_text { /*This div aligns the welcome text and inserts a bottom margin*/
+  text-align: center;
+}
+
+.container { /*This div creates a 4 column grid for the row of text and images, it also inserts a top and bottom margin*/
+  display: grid;
+  grid-gap: 25px;
+  margin-top: 40px;
+  margin-bottom: 2px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+#Bike_oil { /*Postions the bike oil section in the grid*/
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#Lube { /*Postions the lube section in the grid*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#Wet_lube { /*Postions the  wet lube section in the grid*/
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+#product { /*Postions the product section in the grid*/
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.container_2 { /*This div creates a 2 column grid for the news area and also inserts a top and bottom margin for it*/
+  display: grid;
+  grid-template-columns: 3.5fr 1.5fr;
+  grid-gap: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#News { /*Postions the news area in the grid*/
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#date { /*Aligns the dates to the right of the grid*/
+  text-align: right;
+}
+
+#Poll { /*Postions the poll in the grid*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer_1 { /*This div creates a 5 column and 3 row grid for the first footer*/
+  display: grid;
+  grid-template-columns: 0.6fr 0.8fr 0.7fr 0.7fr 1.3fr;
+  grid-template-rows: 0.2fr 1fr 0.3fr;
+}
+
+#image { /*Postions the bike magazine image in the footer*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#Reviews { /*Postions the review section of the footer*/
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#links { /*Positions the links in the footer*/
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.footer_2 { /*This div creates a 4 column by 4 row grid for the second footer*/
+  display: grid;
+  grid-template-columns: 0.25fr 0.8fr 0.4fr 0.2fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+#Address { /*Postions the company address in the footer*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#aside { /*Postions the random info in the footer*/
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+#Contact { /*Postions the contact information in the footer*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+#Copyright { /*Postions the copyright in the footer*/
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+/*----------------------------------product page--------------------------------------*/
+
+.container_4 { /*This div creates a 3 column grid for the product area as well as setting some properties*/
+  display: grid;
+  grid-template-columns: 0.1fr 0.6fr 0.3fr;
+  margin-top: 50px;
+  grid-gap: 20px;
+  margin-bottom: 100px;
+}
+
+#Imagepallet { /*Postions the image pallet in conatiner_4*/
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#Product_image { /*Postions the image pallet in container_4*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.Buy { /*This div creates a 5 column by 2 row grid that will be nested within "container_4"*/
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr 0.4fr 0.2fr 0.5fr 1fr;
+}
+
+#Product_name { /*Postions the product name in the "Buy" div*/
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#Size { /*Postions the size button in the "Buy" div*/
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#Qty { /*Postions the quatnity button in the "Buy" div*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+#Purchase { /*Postions the buy button in the "Buy" div*/
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
+}
+
+#share { /*Postions the "share" text and social media icons in the "Buy" div*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#Description { /*Postions the product description in the "Buy" div*/
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.container_5 { /*This div creates a 6 column grid for the similar products section*/
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 50px;
+  grid-gap: 30px;
+}
+
+#sim1 { /*Postions similar product 1 in container_5*/
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#sim2 { /*Postions similar product 2 in container_5*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#sim3 { /*Postions similar product 3 in container_5*/
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+#sim4 { /*Postions similar product 4 in container_5*/
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+#sim5 { /*Postions similar product 5 in container_5*/
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+
+#sim6 { /*Postions similar product 6 in container_5*/
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+
+.Product_reviews { /*This div creates a 4 column by 5 row grid for the product reviews*/
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 0.6fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+#user1 { /*Postions the user icon for the first review*/
+  margin-top: 50px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#name1 { /*Postions the users name for the first review*/
+  margin-top: 40px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#review1 { /*Postions the first users review of the product*/
+  margin-top: 50px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#border1 { /*Postions the bottom border for the first review*/
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#user2 { /*Postions the user icon for the second review*/
+  margin-top: 50px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-bottom: 50px;
+}
+
+#name2 { /*Postions the users name for the second review*/
+  margin-top: 40px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#review2 {  /*Postions the second users review of the product*/
+  margin-top: 50px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#border2 { /*Postions the bottom border for the second review*/
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#user3 { /*Postions the user icon for the third review*/
+  margin-top: 50px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-bottom: 50px;
+}
+
+#name3 { /*Postions the users name for the thrid review*/
+  margin-top: 40px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#review3 {  /*Postions the third users review of the product*/
+  margin-top: 40px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#border3 { /*Postions the bottom border for the third review*/
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#user4 { /*Postions the user icon for the fourth review*/
+  margin-top: 50px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin-bottom: 50px;
+}
+
+#name4 { /*Postions the users name for the fourth review*/
+  margin-top: 40px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#review4 { /*Postions the fourth users review of the product*/
+  margin-top: 40px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#border4 { /*Postions the bottom border for the fourth review*/
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+
+#user5 { /*Postions the user icon for the fifth review*/
+  margin-top: 50px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-bottom: 50px;
+}
+
+#name5 { /*Postions the users name for the fifth review*/
+  margin-top: 40px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#review5 { /*Postions the fifth users review of the product*/
+  margin-top: 40px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#Read_reveiws { /*Creates margins for the "read reviews" button*/
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-right: 580px;
+  margin-left: 580px;
+}
+
+/*----------------------------Media queries--------------------------------------*/
+
+@media only screen and (min-width: 3000px) { /*This media query makes the website fit onto a much wider screen*/
+
+  .Main_container {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+
+  .footer_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  #image {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  #Reviews {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  #links {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .footer_1 {
+    display: grid;
+    grid-template-columns: 400px 400px 410px 400px 200px;
+    grid-template-rows: 100px 300px 100px;
+  }
+
+  .footer_2 {
+    display: grid;
+    grid-template-columns: 400px 920px 400px 50px;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+}

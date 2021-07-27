@@ -1,0 +1,266 @@
+
+/*-----------Index page---------------*/
+
+.body { /*This div sets the background colour for the page excpet for the two footers*/
+  background-color: #EEEEEE;
+}
+
+.logo { /*This div sets the font type and size for the logo*/
+font-family: 'Damion', cursive;
+font-size: 32px;
+}
+
+h2 { /*H2 is used to set the proeprties of the slogan text in the logo*/
+  font-size: 11px;
+  text-align: right;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  color: #333333;
+  font-family: arial;
+}
+
+.Nav_bar { /*This div creates borders for the nav bar and sets the font type and colour*/
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-width: thin;
+  font-family: arial;
+  color: #808080;
+}
+
+#button1selected { /*If the index page is the current page then the button for it will be in red and have white text*/
+  background-color: #C5110B;
+  color: #FFFFFF;
+}
+
+#button2selected { /*If the product page is the current page then the button for it will be in red and have white text*/
+  background-color: #C5110B;
+  color: #FFFFFF;
+}
+
+#button1:hover { /*If the mouse hovers over this button then it will change to red and have white text*/
+  background-color: #C5110B;
+  color: #FFFFFF;
+}
+
+#button2:hover { /*If the mouse hovers over this button then it will change to red and have white text*/
+  background-color: #C5110B;
+  color: #FFFFFF;
+}
+
+#button3:hover { /*If the mouse hovers over this button then it will change to red and have white text*/
+  background-color: #C5110B;
+  color: #FFFFFF;
+}
+
+#button4:hover { /*If the mouse hovers over this button then it will change to red and have white text*/
+  background-color: #C5110B;
+  color: #FFFFFF;
+}
+
+#button5:hover { /*If the mouse hovers over this button then it will change to red and have white text*/
+  background-color: #C5110B;
+  color: #FFFFFF;
+}
+
+#button6:hover { /*If the mouse hovers over this button then it will change to red and have white text*/
+  background-color: #C5110B;
+  color: #FFFFFF;
+}
+
+#button2 { /*Sets a left border for the button*/
+  border-left-style: groove;
+  border-width: thin;
+}
+
+#button3 { /*Sets a left border for the button*/
+  border-left-style: groove;
+  border-width: thin;
+}
+
+#button4 { /*Sets a left border for the button*/
+  border-left-style: groove;
+  border-width: thin;
+}
+
+#button5 { /*Sets a left border for the button*/
+  border-left-style: groove;
+  border-width: thin;
+}
+
+#button6 { /*Sets a left border for the button*/
+  border-left-style: groove;
+  border-width: thin;
+}
+
+.image { /*This div sets a bottom border for the banner image*/
+  line-height: 10px;
+  border-bottom: 10px solid;
+  border-color: #A9A9A9;
+}
+
+.Welcome_text { /*This div sets the font properties of the welcome text as well as setting it a bottom border*/
+font-family: 'Iceberg', cursive;
+font-size: 30px;
+border-bottom-style: groove;
+}
+
+.container { /*This div sets a bottom border*/
+border-bottom-style: groove;
+}
+
+h3 { /*H3 is used for a majority of the titles on both pages, it sets the font type and size*/
+  font-family: 'Iceberg', cursive;
+  font-size: 24px;
+}
+
+h4 { /*H4 is used for each of the "news item one!" in the news section and it sets their font type and colour*/
+  font-family: arial;
+  color: #B09E9E;
+}
+
+h5 { /*H5 is used for both titles in the first footer and it sets their font type and size*/
+  font-size: 30px;
+  color: #C5110B;
+}
+
+#date {
+  color: #C5110B;
+  font-style: italic;
+}
+
+#Poll { /*Sets the background colour and font type for the poll area*/
+  background-color: #FFFFFF;
+  font-family: arial;
+}
+
+.footer_1 { /*This div sets the background colour and font type for the first footer*/
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-width: thin;
+  background-color: #FFFFFF;
+  font-family: arial;
+}
+
+.footer_2 { /*This div sets the background colour and font type for the second footer*/
+  background-color: #C5110B;
+  font-family: arial;
+  font-weight: bold;
+}
+
+/*-----------------Product page-------------------------*/
+
+.container_4 { /*This div sets the font type for conatiner_4*/
+ font-family: arial;
+}
+
+#Pallet_image { /*Sets the border size and colour for each of the images in the right side image pallet*/
+  border: 1px solid;
+  border-color: #C5110B;
+  line-height: 0px;
+}
+
+#Product_image { /*Sets the border size and colour for the product image*/
+  border: 10px solid;
+  border-color: #FFFFFF;
+  line-height: 0px;
+}
+
+#Purchase { /*Sets the background colour and font weight of "Buy now"*/
+  background-color: #C5110B;
+  color:#FFFFFF;
+  font-weight: bold;
+}
+
+#share { /*Sets the font type and weight for "Find nearest stockist" and "share"*/
+  font-family: arial;
+  font-weight: bold;
+  color: #808080;
+}
+
+#title { /*Sets a top border for the text "Similar products"*/
+  border-top-style: groove;
+}
+
+#title_2 { /*Sets a top and bottom border for the text "Product reviews"*/
+  line-height: 0px;
+  border-top-style: groove;
+  border-bottom-width: thin;
+  border-bottom-style: groove;
+}
+
+.Product_reviews { /*Creates a bottom border for the product reviews area*/
+  border-width: thin;
+  border-bottom-style: groove;
+}
+
+#name1 { /*Sets the font type for the first user*/
+  font-family: arial;
+}
+
+#review1 { /*Sets the font type for the first user's review*/
+  font-family: arial;
+}
+
+#border1 { /*Sets a border underneath the first review*/
+  border-width: thin;
+  border-bottom-style:groove;
+}
+
+#name2 { /*Sets the font type for the second user*/
+  font-family: arial;
+}
+
+#review2 { /*Sets the font type for the second user's review*/
+  font-family: arial;
+}
+
+#border2 { /*Sets a border underneath the second review*/
+  border-width: thin;
+  border-bottom-style:groove;
+}
+
+#name3 { /*Sets the font type for the third user*/
+  font-family: arial;
+}
+
+#review3 { /*Sets the font type for the third user's review*/
+  font-family: arial;
+
+}
+
+#border3 { /*Sets a border underneath the third review*/
+  border-width: thin;
+  border-bottom-style:groove;
+}
+
+#name4 { /*Sets the font type for the fourth user*/
+  font-family: arial;
+}
+
+#review4 { /*Sets the font type for the fourth user's review*/
+  font-family: arial;
+}
+
+#border4 { /*Sets a border underneath the fourth review*/
+  border-width: thin;
+  border-bottom-style:groove;
+}
+
+#name5 { /*Sets the font type for the fifth user*/
+  font-family: arial;
+}
+
+#review5 { /*Sets the font type for the fifth user's review*/
+  font-family: arial;
+}
+
+#Read_reveiws { /*Sets the properties of the read reviews button*/
+  font-family: arial;
+  font-weight: bold;
+  background-color: #C5110B;
+}
+
+#Read_reveiws:hover { /*If the mouse hovers over the button it will increase in size slightly*/
+font-size: 20px;
+}
